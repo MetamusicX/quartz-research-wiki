@@ -2,6 +2,8 @@
 
 A starter for research groups, seminars, and reading clusters who want to publish their meetings, summaries, and cross-referenced notes as a searchable, linked website.
 
+![Screenshot of the example concept atom, showing backlinks, graph view, and cross-references to meetings and other atoms](assets/screenshot-atom.png)
+
 It is a configured fork of [Quartz v4](https://quartz.jzhao.xyz) by [Jacky Zhao](https://jzhao.xyz) — a free, open-source static-site generator that turns a folder of Markdown notes into a static HTML site with backlinks, full-text search, and a graph view. The source files stay ordinary Markdown, readable in any text editor or in [Obsidian](https://obsidian.md). MIT-licensed; no vendor lock-in.
 
 ## What this template adds on top of Quartz
