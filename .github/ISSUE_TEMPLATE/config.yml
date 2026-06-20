@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Quartz documentation
+    url: https://quartz.jzhao.xyz
+    about: For questions about Quartz itself (build, configuration, deployment), the upstream docs are the best place to start.

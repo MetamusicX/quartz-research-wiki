@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in the template (Quartz config, content scaffold, build, docs) doesn't work as described.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. This is for problems with the **template itself** — not with content in your own fork. For questions about Quartz itself, see the upstream documentation.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: "Running `npx quartz build` fails after I renamed a content folder, with the error…"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Fork / clone at commit …
+        2. npm install
+        3. npx quartz build --serve
+        4. Observe …
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where in the template?
+      description: Which file or area is involved, if you know.
+      placeholder: "build.sh, or quartz.config.ts, or content/atoms/…"
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, Node.js version (`node --version`), and how you are building (local preview, Netlify, other host).
+    validations:
+      required: false

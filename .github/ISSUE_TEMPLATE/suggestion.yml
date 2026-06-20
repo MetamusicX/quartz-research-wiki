@@ -1,0 +1,30 @@
+name: Improvement or idea
+description: Suggest a change to the configuration, the content scaffold, a worked example, or the documentation.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas for improving the **template** are welcome. For changes to your own group's content, keep them in your fork.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's the idea?
+      description: Describe the improvement and the problem it solves.
+      placeholder: "A worked example for the threads/ folder would make the multi-meeting pattern clearer."
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why does it help?
+      description: Who benefits, and how? If it changes the configuration, what is the wider effect on forks?
+    validations:
+      required: false
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: This improves the template for everyone, not just my own group's setup
+          required: true
